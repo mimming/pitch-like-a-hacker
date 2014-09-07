@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Firebase</title>
+
+  <meta name="description" content="Firebase helps you make realtime stuff">
+  <meta name="author" content="Jenny Tong">
+
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if (window.location.search.match(/print-pdf/gi)) {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'css/print/pdf.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    }
+  </script>
+
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6U2ExB8yLDc7RiGPYK3C3yIzDPpyFJE0&sensor=false"></script>
+  <script src="https://cdn.firebase.com/libs/geofire/3.0.2/geofire.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/1.0.17/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/transit.js"></script>
+  <script type="text/javascript" src="https://cdn-gh.firebase.com/btcquote/embed.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+
+
+  <style>
+    .openlayers-map img {
+      margin: 0;
+    }
+
+    #map-canvas img {
+      max-width: none;
+      max-height: none;
+      box-shadow: none;
+    }
+
+    .slides section img {
+      background: none;
+      box-shadow: none;
+      border: none;
+    }
+
+    ul.multicol {
+      width: 1300px;
+
+    }
+
+    ul.multicol li {
+      display: inline-block;
+      width: 400px;
+      height: 400px;
+    }
+
+    ul.multicol li li {
+      display: block;
+      width: auto;
+      height: auto;
+    }
+  </style>
+  <style>
+    .reveal section img {
+      max-height: 65%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="reveal">
+
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+    <section>
+      <h1>How to pitch like a hacker</h1>
+
+      <p>
+        <small>Created by <a href="https://mimming.com">Jenny Tong</a> / <a href="http://twitter.com/baconatedgeek">@BaconatedGeek</a>
+        </small>
+      </p>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## The pitch timeline
+
+        - **Right now**
+        - While building
+        - An hour before
+        - The pitch itself
+        - After
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        Remember why you're here: To learn.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        Broken? Incomplete?: Demo anyway.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## The pitch timeline
+
+        - Right now
+        - **While building**
+        - An hour before
+        - The pitch itself
+        - After
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Script before code
+        0. Say your group name
+        0. State the problem you solved
+        0. A one sentence description of your solution
+        0. Demo the stuff that works, dance around the pictures.
+        0. Talk about the technologies you used in descending order of best prizes
+        0. Say your group name again.
+        0. Stand on stage until you are dismissed.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Use source code control
+        - Commit often
+        - Things are going to break.
+        - You may need to roll back for the demo.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Always be ready to ship
+        - Start with mocks and pictures of what you want.
+        - Filling in holes with working stuff as you go.
+        - You never know when your best coder will get sick.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## The pitch timeline
+
+        - Right now
+        - While building
+        - **An hour before**
+        - The pitch itself
+        - After
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Stop adding features
+        - You're already out of time.
+        - Roll back if you need to.
+        - Trim away the broken parts.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Start practicing
+        - Select 1 or 2 people to do the pitch.
+        - Refine your script
+        - If demos last 5 minutes, practice targeting 4
+        - Practice 10 times
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## The pitch timeline
+
+        - Right now
+        - While building
+        - An hour before
+        - **The pitch itself**
+        - After
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Common pitfalls
+        - Don't introduce your team members. It wastes a minute.
+        - Talk slower.
+        - You don't need to use all your time. Don't feel pressured to.
+        - Talk slower. Count to three between each section.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Risk Management
+        - Wireless will break
+        - Minimize A/V complexity
+        - Go first, you get extra time for A/V set up
+        - Have backup screen shots
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Engage your audience
+        - Make your demo as tactile and physical as possible.
+        - Tell a story if you can. Weave a narrative.
+        - Can it be audience interactive? If so, plant team members.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Judges have questions
+        - What features will you add next?
+        - How is this different than _such and such startup you haven't heard of_?
+        - Did you use my API? If so, how?
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## The pitch timeline
+
+        - Right now
+        - While building
+        - An hour before
+        - The pitch itself
+        - **After**
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        # Get a libation. Take a deep breath.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        ## Before you leave
+        - Take screenshots for posterity (and your portfolio).
+        - Open source your code.
+      </script>
+    </section>
+
+
+    <section>
+      <h1>THE END</h1>
+
+      <p>
+        <small>Created by <a href="https://mimming.com">Jenny Tong</a> / <a href="http://twitter.com/baconatedgeek">@BaconatedGeek</a>
+        </small>
+      </p>
+    </section>
+
+  </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    theme: "night", // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Parallax scrolling
+    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    // parallaxBackgroundSize: '2100px 900px',
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function () {
+        return !document.body.classList;
+      } },
+      { src: 'plugin/markdown/marked.js', condition: function () {
+        return !!document.querySelector('[data-markdown]');
+      } },
+      { src: 'plugin/markdown/markdown.js', condition: function () {
+        return !!document.querySelector('[data-markdown]');
+      } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+        hljs.initHighlightingOnLoad();
+      } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+        return !!document.body.classList;
+      } },
+      { src: 'plugin/notes/notes.js', async: true, condition: function () {
+        return !!document.body.classList;
+      } }
+    ]
+  });
+
+  Reveal.addEventListener('slidechanged', function (event) {
+    if (event.indexh === 3 && event.indexv === 1) {
+      transitmapstart()
+    }
+  });
+
+</script>
+
+</body>
+</html>
