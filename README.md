@@ -1,6 +1,12 @@
-# How to pitch like a hacker @ neoHack14
+# How to pitch like a hacker
 
-Here's the presentation that [Jenny Tong](https://mimming.com) gave at [neoHack](https://www.eventbrite.com/e/neohack14-tickets-12557544955). It's about giving a hackathon pitch. 
+Tips and tricks for hackathon presentations based on Jenny Tong's years of hackathon experiences.
+
+Slides are live on [mimming.com](http://mimming.com/presos/pitch-like-a-hacker/)
+
+Slides as presented at:
+
+- [neoHack](https://www.eventbrite.com/e/neohack14-tickets-12557544955) - [slides](https://github.com/mimming/pitch-like-a-hacker/releases/tag/neoHack14)
 
 ## About the deck
 
