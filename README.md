@@ -10,4 +10,4 @@ Forked from the wonderful [reveal.js](https://github.com/hakimel/reveal.js)
 
 MIT licensed
 
-Copyright (C) 2014 Firebase
+Copyright (C) 2014 mimming.com
