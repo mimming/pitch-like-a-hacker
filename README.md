@@ -4,7 +4,7 @@ Tips and tricks for hackathon presentations based on Jenny Tong's years of hacka
 
 Slides are live on [mimming.com](http://mimming.com/presos/pitch-like-a-hacker/)
 
-Slides as presented at:
+## Presented at
 
 - [neoHack](https://www.eventbrite.com/e/neohack14-tickets-12557544955) - [slides](https://github.com/mimming/pitch-like-a-hacker/releases/tag/neoHack14)
 
