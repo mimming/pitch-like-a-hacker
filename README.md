@@ -6,7 +6,7 @@ Slides are live on [mimming.com](http://mimming.com/presos/pitch-like-a-hacker/)
 
 ## Presented at
 
-- [neoHack](https://www.eventbrite.com/e/neohack14-tickets-12557544955) - [slides](https://github.com/mimming/pitch-like-a-hacker/releases/tag/neoHack14)
+- [neoHack14](https://www.eventbrite.com/e/neohack14-tickets-12557544955) - [slides](https://github.com/mimming/pitch-like-a-hacker/releases/tag/neoHack14)
 
 ## About the deck
 
