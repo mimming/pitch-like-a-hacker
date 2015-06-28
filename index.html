@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0, maximum-scale=2.0, user-scalable=no">
 
   <link rel="stylesheet" href="css/reveal.min.css">
   <link rel="stylesheet" href="css/theme/default.css" id="theme">
@@ -33,11 +33,7 @@
 
   <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6U2ExB8yLDc7RiGPYK3C3yIzDPpyFJE0&sensor=false"></script>
-  <script src="https://cdn.firebase.com/libs/geofire/3.0.2/geofire.min.js"></script>
-  <script src="https://cdn.firebase.com/js/client/1.0.17/firebase.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/transit.js"></script>
-  <script type="text/javascript" src="https://cdn-gh.firebase.com/btcquote/embed.js"></script>
 
   <!--[if lt IE 9]>
   <script src="lib/js/html5shiv.js"></script>
@@ -77,10 +73,15 @@
       width: auto;
       height: auto;
     }
-  </style>
-  <style>
+
     .reveal section img {
       max-height: 65%;
+    }
+
+    .reveal h1, .reveal h2, .reveal h3 {
+      font-weight: normal;
+      font-family: 'Open sans', sans-serif;
+      line-height: normal;
     }
   </style>
 
@@ -93,7 +94,7 @@
   <!-- Any section element inside of this container is displayed as a slide -->
   <div class="slides">
     <section>
-      <h1>How to pitch like a hacker</h1>
+      <h1>How to pitch like a <span style="font-family: 'Courier New', Courier, monospace;">l337 h4z0r</span></h1>
 
       <p>
         <small>Created by <a href="https://mimming.com">Jenny Tong</a> / <a href="http://twitter.com/baconatedgeek">@BaconatedGeek</a>
@@ -111,16 +112,21 @@
         - After
       </script>
     </section>
-    <section data-markdown>
-      <script type="text/template">
-        Remember why you're here: To learn.
-      </script>
+    <section>
+      <h3>Remember why you're here</h3>
+
+      <br/><br/>
+
+      <h3 class="fragment">To learn.</h3>
     </section>
-    <section data-markdown>
-      <script type="text/template">
-        Broken? Incomplete?: Demo anyway.
-      </script>
+    <section>
+      <h3>Broken? Incomplete? <span class="fragment">On fire?</span></h3>
+
+      <br/><br/>
+
+      <h3 class="fragment">Demo anyway.</h3>
     </section>
+
     <section data-markdown>
       <script type="text/template">
         ## The pitch timeline
@@ -132,32 +138,32 @@
         - After
       </script>
     </section>
-    <section data-markdown>
-      <script type="text/template">
-        ## Script before code
-        0. Say your group name
-        0. State the problem you solved
-        0. A one sentence description of your solution
-        0. Demo the stuff that works, dance around the pictures.
-        0. Talk about the technologies you used in descending order of best prizes
-        0. Say your group name again.
-        0. Stand on stage until you are dismissed.
-      </script>
+    <section>
+      <h2>Script before code</h2>
+      <ol>
+        <li class="fragment">Group name</li>
+        <li class="fragment">The problem you solved</li>
+        <li class="fragment">A one sentence description of your solution</li>
+        <li class="fragment">Demo the stuff that works, dance around the pictures</li>
+        <li class="fragment">Buzz words, starting with the best prizes</li>
+        <li class="fragment">Your group name... again</li>
+        <li class="fragment">Stay on stage until someone makes you leave</li>
+      </ol>
     </section>
     <section data-markdown>
       <script type="text/template">
-        ## Use source code control
+        ## Use source control
         - Commit often
-        - Things are going to break.
-        - You may need to roll back for the demo.
+        - Things are going to break
+        - Prepare to roll back 5 minutes before your demo
       </script>
     </section>
     <section data-markdown>
       <script type="text/template">
         ## Always be ready to ship
-        - Start with mocks and pictures of what you want.
-        - Filling in holes with working stuff as you go.
-        - You never know when your best coder will get sick.
+        - Start with mocks and pictures
+        - Fill in the holes with working stuff
+        - You never know when your best coder will get sick
       </script>
     </section>
     <section data-markdown>
@@ -171,21 +177,21 @@
         - After
       </script>
     </section>
-    <section data-markdown>
-      <script type="text/template">
-        ## Stop adding features
-        - You're already out of time.
-        - Roll back if you need to.
-        - Trim away the broken parts.
-      </script>
+    <section>
+      <h2>Stop adding features</h2>
+      <ul>
+        <li>You're already out of time</li>
+        <li class="fragment">Stuff is broken? Roll back</li>
+        <li class="fragment">Stuff is still broken? Comment it out</li>
+      </ul>
     </section>
     <section data-markdown>
       <script type="text/template">
-        ## Start practicing
+        ## Practice your pitch
         - Select 1 or 2 people to do the pitch.
         - Refine your script
-        - If demos last 5 minutes, practice targeting 4
-        - Practice 10 times
+        - If demos are 5 minutes, plan for 4 minutes
+        - Practice 10 more times
       </script>
     </section>
     <section data-markdown>
@@ -202,19 +208,19 @@
     <section data-markdown>
       <script type="text/template">
         ## Common pitfalls
-        - Don't introduce your team members. It wastes a minute.
+        - Don't introduce your team members: it wastes a minute
         - Talk slower.
-        - You don't need to use all your time. Don't feel pressured to.
-        - Talk slower. Count to three between each section.
+        - You don't need to use all of your time
+        - Talk slower. Count to three between each section
       </script>
     </section>
     <section data-markdown>
       <script type="text/template">
         ## Risk Management
-        - Wireless will break
+        - Wireless what?
         - Minimize A/V complexity
-        - Go first, you get extra time for A/V set up
-        - Have backup screen shots
+        - Go first: you get extra time for A/V set up
+        - Have a backup screencast
       </script>
     </section>
     <section data-markdown>
@@ -223,6 +229,11 @@
         - Make your demo as tactile and physical as possible.
         - Tell a story if you can. Weave a narrative.
         - Can it be audience interactive? If so, plant team members.
+      </script>
+    </section>
+    <section data-markdown>
+      <script type="text/template">
+        <h1>Pretend Pitch</h1>
       </script>
     </section>
     <section data-markdown>
@@ -262,7 +273,7 @@
       <h1>THE END</h1>
 
       <p>
-        <small>Created by <a href="https://mimming.com">Jenny Tong</a> / <a href="http://twitter.com/baconatedgeek">@BaconatedGeek</a>
+        <small>Created by <a href="https://mimming.com">Jenny Tong</a> / <a href="http://twitter.com/MimmingCodes">@MimmingCodes</a>
         </small>
       </p>
     </section>
@@ -293,24 +304,36 @@
 
     // Optional libraries used to extend on reveal.js
     dependencies: [
-      { src: 'lib/js/classList.js', condition: function () {
+      {
+        src: 'lib/js/classList.js', condition: function () {
         return !document.body.classList;
-      } },
-      { src: 'plugin/markdown/marked.js', condition: function () {
+      }
+      },
+      {
+        src: 'plugin/markdown/marked.js', condition: function () {
         return !!document.querySelector('[data-markdown]');
-      } },
-      { src: 'plugin/markdown/markdown.js', condition: function () {
+      }
+      },
+      {
+        src: 'plugin/markdown/markdown.js', condition: function () {
         return !!document.querySelector('[data-markdown]');
-      } },
-      { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+      }
+      },
+      {
+        src: 'plugin/highlight/highlight.js', async: true, callback: function () {
         hljs.initHighlightingOnLoad();
-      } },
-      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+      }
+      },
+      {
+        src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
         return !!document.body.classList;
-      } },
-      { src: 'plugin/notes/notes.js', async: true, condition: function () {
+      }
+      },
+      {
+        src: 'plugin/notes/notes.js', async: true, condition: function () {
         return !!document.body.classList;
-      } }
+      }
+      }
     ]
   });
 
